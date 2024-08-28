@@ -1,0 +1,29 @@
+body {
+background-image: url("djback.jpg");
+  
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+
+
+
+}
+h1 {
+  color: rgb(236, 223, 120);
+  text-align: center;
+  width: 100%;
+  border-style: groove;
+
+}
+
+p {
+margin-top: 100
+px;
+    color: rgb(0, 208, 255);
+
+font-size: 30px;
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ 
+
+}
