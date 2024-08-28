@@ -1,29 +1,62 @@
 body {
-background-image: url("djback.jpg");
-  
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: scroll;
+  background-image: url("djback.jpg");
 
-
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 h1 {
   color: rgb(236, 223, 120);
   text-align: center;
   width: 100%;
   border-style: groove;
-
+  
+}
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
+
 p {
-margin-top: 100
-px;
-    color: rgb(0, 208, 255);
+  margin-top: 100 px;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 208, 255);
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.img-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  -webkit-column-span: none;
+}
+/* Apply styles for screens with a width of 768px or less */
+@media (max-width: 768px) {
+  /* styles here */
+} /* Set the width of an element to 50% of its parent */
+.element {
+  width: 50%;
+}
 
-font-size: 30px;
+/* Set the font size to 1.5em (1.5 times the parent font size) */
+.element {
+  font-size: 1.5em;
+} /* Define a breakpoint for screens with a width of 768px or less */
+@media (max-width: 768px) {
+  /* styles here */
+}
 
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
- 
-
+/* Define a breakpoint for screens with a width of 1024px or less */
+@media (max-width: 1024px) {
+  /* styles here */
+}
+/* Apply styles for screens with a width of 768px or less */
+@media (min-width: 320px) {
+  /* styles here */
 }
