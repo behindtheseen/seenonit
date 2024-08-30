@@ -1,5 +1,5 @@
 body {
-  background-image: url("djback.jpg");
+  background-image: url("3dback.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,6 @@ h1 {
   color: rgb(235, 226, 160);
   text-align: center;
   width: 100%;
-  border-style: groove;
 }
 .rock-salt-regular {
   font-family: "Rock Salt", cursive;
@@ -40,21 +39,17 @@ p {
 } /* Set the width of an element to 50% of its parent */
 .element {
   width: 50%;
-}
-
-/* Set the font size to 1.5em (1.5 times the parent font size) */
-.element {
   font-size: 1.5em;
-} /* Define a breakpoint for screens with a width of 768px or less */
-@media (max-width: 768px) {
-  /* styles here */
 }
-
-/* Define a breakpoint for screens with a width of 1024px or less */
-@media (max-width: 1024px) {
-  /* styles here */
-}
-/* Apply styles for screens with a width of 768px or less */
-@media (min-width: 320px) {
-  /* styles here */
+.button {
+  background-color: whitesmoke;
+  border-radius: 18px;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+font-family: sans-serif;
 }
