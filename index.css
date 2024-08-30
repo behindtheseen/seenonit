@@ -6,11 +6,10 @@ body {
   background-attachment: scroll;
 }
 h1 {
-  color: rgb(236, 223, 120);
+  color: rgb(235, 226, 160);
   text-align: center;
   width: 100%;
   border-style: groove;
-  
 }
 .rock-salt-regular {
   font-family: "Rock Salt", cursive;
@@ -18,12 +17,11 @@ h1 {
   font-style: normal;
 }
 
-
 p {
   margin-top: 100 px;
   width: 100%;
   text-align: center;
-  color: rgb(0, 208, 255);
+  color: rgb(182, 218, 227);
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }

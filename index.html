@@ -11,18 +11,64 @@
       href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <h1 class="rock-salt-regular">behindtheseen
-    </h1>
+    <h1 class="rock-salt-regular">behindtheseen</h1>
     <p>you can listen to my mixes here.</p>
     <div class="img-section">
-      <img class="" src="rrrr.jpg" width="550" height="374" />
+      <img
+        class=""
+        src="rrrr.jpg"
+        width="500"
+        height="400"
+        imgcrop="curves"
+        curvestretch="yes"
+      />
       <a href="https://t.me/dj3ina">
         <img
           src="https://img.icons8.com/color/48/000000/telegram-app.png"
-          alt=""
+          width="40"
+          height="40"
+          imgcrop="curves"
+          curvestretch="yes"
+          alt="Telegram"
+          title="Telegram"
+          curvestretch="yes"
         />
+        <span>Telegram</span>
+
+        />
+      </a>
+      <a href="https://www.instagram.com/dj3ina/">
+        <button>
+          <a href="https://www.instagram.com/dj3ina/"></a>
+          <span>Instagram</span>
+        </button>
+        <img src="https://img.icons8.com/ios/48/000000/instagram-new--v1.png"
+        width="40" height="40" imgcrop="curves" curvestretch="yes"
+        alt="Instagram" title="Instagram" class="instagram-icon" import React, {
+        useState } from 'react'; import { View, Image, TouchableOpacity } from
+        'react-native'; import { Camera } from 'expo-camera'; import {
+        ImagePicker } from 'expo-image-picker'; const App = () => { const
+        [image, setImage] = useState(null); const handleCamera = async () => {
+        const { status } = await Camera.requestPermissionsAsync(); if (status
+        === 'granted') { const photo = await Camera.takePictureAsync();
+        setImage(photo.uri); } }; const handleGallery = async () => { const {
+        status } = await ImagePicker.requestMediaLibraryPermissionsAsync(); if
+        (status === 'granted') { const image = await
+        ImagePicker.launchImageLibraryAsync(); setImage(image.uri); } }; return
+        (
+        <View>
+          <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />
+          <TouchableOpacity onPress="{handleCamera}">
+            <Text>Take a photo</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress="{handleGallery}">
+            <Text>Select from gallery</Text>
+          </TouchableOpacity>
+        </View>
+        ); }; export default App; />
       </a>
     </div>
   </body>
